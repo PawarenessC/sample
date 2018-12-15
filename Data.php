@@ -1,5 +1,7 @@
 <?php
 
+use pocketmine\event\server\DataPacketReceiveEvent;
+
 public function onData(DataPacketReceiveEvent $event){
 
 $pk = $event->getPacket();
