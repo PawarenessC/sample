@@ -10,7 +10,7 @@ $game = $this->gametime;//引継ぎます、一々$this書くのめんどいの�
 $players = Server::getInstance()->getOnlinePlayers();
 
 
-switch($min){ // switchで分岐します
+switch($game){ // switchで分岐します
 
 case 99: // セミコロンではなく:です $minに99が入ってたらの分岐です
 foreach ($players as $player){ // プレイヤーを取得
